@@ -1,8 +1,15 @@
-# React + Vite
+Food Order Website (ReactJS)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive food ordering platform built with React.js.
+It provides a smooth food ordering experience with login/signup, tab-based navigation, cart management, and a simple checkout flow.
 
-Currently, two official plugins are available:
+🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🔑 Authentication (Login/Signup) – Users can create an account and sign in
+📋 Food Menu – Browse food items with quick access to details
+🛒 Cart System – Add, remove, and update items in cart
+🧭 Tabs Navigation – Navigate between sections/pages easily
+🍽️ Direct Item View – Click on menu item → open item details page directly
+💳 Checkout UI – Payment options (UI only, no backend)
+📱 Responsive Design – Works on mobile, tablet, and desktop
+📥 App Download Option – Users can download app version
