@@ -1,32 +1,41 @@
-.div{background: url("/src/assets/header_img.png") no-repeat;
-    background-size:contain;
-    height:35vw;
-    position:relative;
-    margin-left:120px;
-
+.header {
+  background-size: cover;
+  background-position: center;
+  height: 75vh;                /* image ko bada kiya */
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 40px;              /* left-right padding */
+  border-radius: 25px;         /* round corners */
+  overflow: hidden;            /* radius ke bahar image cut ho jaye */
 }
 
-.heading{
-    position:absolute;
-    display:flex;
-    flex-direction:column;
-    align-items:start;
-    bottom:10%;
-    left:30px;
-    color:white;
-    font-size:32px;
-    animation: fadeIn 3s;
+.heading {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  bottom: 10%;
+  left: 50px;                  /* text thoda andar */
+  color: white;
+  font-size: 32px;
+  animation: fadeIn 3s;
 }
-.Viewmenu{
-    marign:10px;
-    padding:15px;
-    background-color:red;
-    color:white;
-    width:11vw;
-    height:5vw;
-    font-size:22px;
-    font-weight:bold;
-    border:none;
-    border-radius:25px;
-    cursor:pointer;
+
+.Viewmenu {
+  margin-top: 10px;
+  padding: 15px 25px;
+  background-color: #007bff;   /* button ka color (blue) */
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.Viewmenu:hover {
+  background-color: #0056b3;   /* hover pe dark blue */
 }
